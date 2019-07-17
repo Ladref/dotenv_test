@@ -2,7 +2,7 @@ require 'dotenv'# Appelle la gem Dotenv
 require 'twitter'# Appelle la gem Twitter
 require 'pry'
 
-Dotenv.load # Ceci appelle le fichier .env (situé dans le même dossier que celui d'où tu exécute app.rb)
+Dotenv.load("../.env") # Ceci appelle le fichier .env (situé dans le même dossier que celui d'où tu exécute app.rb)
 # et grâce à la gem Dotenv, on importe toutes les données enregistrées dans un hash ENV
 
 # quelques lignes qui appellent les clés d'API de ton fichier .env
